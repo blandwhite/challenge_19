@@ -39,22 +39,43 @@ Specifically, we will assume the perspective of a Fintech Finder customer in ord
 
 ## Technologies
 
-This application is written in Python 3.7 using Visual Studio Code and Jupyter Lab
+This application is written in Python 3.7 using Jupyter Lab v3.0.14
 
- - [Pandas](https://pandas.pydata.org/pandas-docs/stable/) - *an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.*
  - [Streamlit](https://streamlit.io/) - *an open source library that turns data scripts into shareable web apps in minutes.*
- - [Web3.py](https://web3py.readthedocs.io/en/stable/) - *a Python library for interacting with Ethereum.*
+ - [Web3.py v5.17](https://web3py.readthedocs.io/en/stable/) - *a Python library for interacting with Ethereum.*
+ - [Ganache](https://trufflesuite.com/ganache/) - *a program that allows you to quickly set up a local blockchain, which you can use to test and develop smart contracts.*
+ - [mnemonic](https://pypi.org/project/mnemonic/) - *implementation of BIP-0039: Mnemonic code for generating deterministic keys*
+ - [bip44](https://pypi.org/project/bip44/) - *simple Python bip44 implementation. Mnemonic + bip32.*
+ - [python-dotenv](https://pypi.org/project/python-dotenv/) - *a Python library that reads key-value pairs from a .env file and can set them as environment variables.*
+ - [Requests](https://docs.python-requests.org/en/latest/) - *an elegant and simple HTTP library for Python, built for human beings.*
 
 ### Installation Guide
 
 prior to running these libraries, install them from the command line:
-  - pandas: `conda install pandas` or `pip install pandas`  
+ 
   - streamlit: `pip install streamlit`
   - web3: `pip install web3`
+  - eth-tester: `pip install eth-tester==0.5.0b3`
+  - mnemonic: `pip install mnemonic`
+  - bip44: `pip install bip44`
+  - python-dotenv: `pip install python-dotenv`
+  - Requests: `python -m pip install requests`
   
 ---
 
 ## Usage
+
+### Ganache wallet balance before transaction:
+![](Images/ganache_before.png)
+
+### Ganache balance after transaction:
+![](Images/ganache_after.png)
+
+### Ganache transaction detail:
+![](Images/ganache_transaction.png)
+
+### Streamlit video of Fintech_Finder:
+![](Images/streamlit-fintech_finder.gif)
 
 ---
 
